@@ -20,6 +20,9 @@ ime()
 def godine():
     print 24
 
+godine()
+    
+
 
 main()
 

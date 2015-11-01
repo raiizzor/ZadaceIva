@@ -1,32 +1,31 @@
-def main():
-    ime(12)
-
-def ime(naziv):
-    print naziv
-
-main()    
-
-
-def main():
-    visina_sirina(12 , 24.5)
-
-def visina_sirina(visina , sirina):
-    print(visina , sirina)
-
-main()
-
-
-def main():
-    adresa(12 , " Vukovarska")
-
-def adresa(broj , ulica):
-    ulica= "Ozaljska"
-    print(broj , ulica)
-
-main()    
-
 
 ULICA= "Ozaljska"
+
+def main():
+    ime()
+    visina_sirina()
+    adresa()
+ 
+
+def ime(ime=12):
+    print ime
+
+ 
+def visina_sirina(visina= 12 , sirina= 24.5):
+    print (visina , sirina)
+
+
+def adresa(broj= 12 , ulica= "Vukovarska"):
+    print (broj , ulica)
+
+
+def adresa(broj= 12 , ulica= "Vukovarska"):
+    print (broj , ulica)
+
+
+adresa(ulica=ULICA)
+
+main()
 
 
 if 3>2:
