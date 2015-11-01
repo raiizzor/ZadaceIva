@@ -1,5 +1,9 @@
+
+ULICA= "Ozaljska"
+
 def godine():
     print 24
+    print ULICA
 
 godine()
 
@@ -24,8 +28,8 @@ def adresa(broj= 12 , ulica= "Vukovarska"):
 main()
 
 
- def adresa(broj= 12 , ulica= "Vukovarska"):
-    ULICA= "Ozaljska"
+def adresa(broj= 12 , ulica= "Vukovarska"):
     print (broj , ulica)
 
-adresa()    
+
+adresa(ulica=ULICA)    
